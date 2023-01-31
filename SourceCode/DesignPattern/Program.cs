@@ -2,6 +2,7 @@
 
 using DesignPattern;
 using DesignPattern.Strategy;
+using DesignPattern.Template;
 
-IDesignPattern designPattern = new StrategyPattern();
+IDesignPattern designPattern = new TemplatePattern();
 designPattern.TestCase();
