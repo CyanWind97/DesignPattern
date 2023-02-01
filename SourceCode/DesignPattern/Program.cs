@@ -3,6 +3,7 @@
 using DesignPattern;
 using DesignPattern.Strategy;
 using DesignPattern.Template;
+using DesignPattern.Builder;
 
-IDesignPattern designPattern = new TemplatePattern();
+IDesignPattern designPattern = new BuilderPattern();
 designPattern.TestCase();
