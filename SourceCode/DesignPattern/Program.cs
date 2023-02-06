@@ -5,6 +5,7 @@ using DesignPattern.Strategy;
 using DesignPattern.Template;
 using DesignPattern.Builder;
 using DesignPattern.Composite;
+using DesignPattern.Decorator;
 
-IDesignPattern designPattern = new CompositePattern();
+IDesignPattern designPattern = new DecoratorPattern();
 designPattern.TestCase();
