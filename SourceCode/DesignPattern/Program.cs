@@ -6,6 +6,7 @@ using DesignPattern.Template;
 using DesignPattern.Builder;
 using DesignPattern.Composite;
 using DesignPattern.Decorator;
+using DesignPattern.Prototype;
 
-IDesignPattern designPattern = new DecoratorPattern();
+IDesignPattern designPattern = new PrototypePattern();
 designPattern.TestCase();
