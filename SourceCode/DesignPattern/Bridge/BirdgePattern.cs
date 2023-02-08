@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Adapter
+namespace DesignPattern.Bridge
 {
-    public class AdapterPattern : IDesignPattern
+    public class BirdgePattern : IDesignPattern
     {
         public void TestCase()
         {
-            ComputerReadSample.ComputerReadSample.TestCase();
+            DrawShapeSample.DrawShapeSample.TestCase();
         }
     }
 }
